@@ -18,7 +18,7 @@ namespace WebsiteBanQuanAo16.DAL.Models
         }
 
         public virtual DbSet<ChiTietDonHang> ChiTietDonHangs { get; set; }
-        public virtual DbSet<DanhGium> DanhGia { get; set; }
+        public virtual DbSet<DanhGia> DanhGia { get; set; }
         public virtual DbSet<DonHang> DonHangs { get; set; }
         public virtual DbSet<KhachHang> KhachHangs { get; set; }
         public virtual DbSet<LoaiSp> LoaiSps { get; set; }

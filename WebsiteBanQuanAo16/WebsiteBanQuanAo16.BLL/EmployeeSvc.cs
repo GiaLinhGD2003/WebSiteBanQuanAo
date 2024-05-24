@@ -2,68 +2,98 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WebDT.Common.BLL;
-using WebDT.Common.Req;
-using WebDT.Common.Rsp;
-using WebDT.DAL;
-using WebDT.DAL.Models;
+using WebsiteBanQuanAo16.Common.BLL;
+using WebsiteBanQuanAo16.Common.Req;
+using WebsiteBanQuanAo16.Common.Rsp;
+using WebsiteBanQuanAo16.DAL;
+using WebsiteBanQuanAo16.DAL.Models;
 
-namespace WebDT.BLL
+namespace WebsiteBanQuanAo16.BLL
 {
-    public class EmployeeSvc:GenericSvc<EmployeeRep,Employee>
+    public class NhanVienSvc:GenericSvc<NhanVienRep, NhanVien>
     {
-        private EmployeeRep employeeRep;
+        private NhanVienRep nhanvienRep;
         #region -- Overrides --
 
         public override SingleRsp Read(int id)
         {
-            var rsp = new SingleRsp();
-            rsp.Data = _rep.Read(id);
-            return rsp;
+            var res = new SingleRsp();
+            res.Data = _rep.Read(id);
+            if (res.Data == null)
+            {
+                res.SetMessage("Khong tim thay user");
+                res.SetError("404", "Khong tim thay user");
+            }
+            return res;
         }
 
         #endregion
 
         #region -- Methods --
 
-        public EmployeeSvc() 
+        public NhanVienSvc() 
         {
-            employeeRep = new EmployeeRep();
+            nhanvienRep = new NhanVienRep();
         }
-        public SingleRsp CreateEmployee(EmployeeReq employeeReq)
+        public SingleRsp CreateNhanVien(NhanVienReq nhanvienReq)
         {
             var res = new SingleRsp();
-            Employee e = new Employee();
-            e.EmployeeId = employeeReq.EmployeeId;
-            e.EmployeeName = employeeReq.EmployeeName;
-            e.UserId = employeeReq.UserId;
-            e.Gender = employeeReq.Gender;
-            e.BirthDate = employeeReq.BirthDate;
-            e.Idcard = employeeReq.Idcard;
-            e.Title = employeeReq.Title;
-            e.Phone = employeeReq.Phone;
-            e.Salary = employeeReq.Salary;
-            res = employeeRep.CreateEmployee(e);
+            NhanVien e = new NhanVien(); 
+
+            e.MaNv = nhanvienReq.MaNv;
+            e.NamSinh = nhanvienReq.NamSinh;
+            e.Idcard = nhanvienReq.Idcard;
+            e.ChucVu = nhanvienReq.ChucVu;
+            e.Sdt = nhanvienReq.Sdt;
+
+            res = nhanvienRep.CreateNhanVien(e);
+
             return res;
         }
 
-        public SingleRsp UpdateEmployee(EmployeeReq employeeReq)
+        public SingleRsp UpdateNhanVien(NhanVienReq nhanvienReq)
         {
+
             var res = new SingleRsp();
-            Employee e = new Employee();
-            e.EmployeeId = employeeReq.EmployeeId;
-            e.EmployeeName = employeeReq.EmployeeName;
-            e.UserId = employeeReq.UserId;
-            e.Gender = employeeReq.Gender;
-            e.BirthDate = employeeReq.BirthDate;
-            e.Idcard = employeeReq.Idcard;
-            e.Title = employeeReq.Title;
-            e.Phone = employeeReq.Phone;
-            e.Salary = employeeReq.Salary;
-            res = employeeRep.UpdateEmployee(e);
+            //Employee ex = new Employee();
+            var ex = nhanvienRep.Read(nhanvienReq.MaNv);
+            //Cap nhat
+            ex.UserId = nhanvienReq.UserId;
+			ex.MaNv = nhanvienReq.MaNv;
+			ex.NamSinh = nhanvienReq.NamSinh;
+			ex.Idcard = nhanvienReq.Idcard;
+			ex.ChucVu = nhanvienReq.ChucVu;
+			ex.Sdt = nhanvienReq.Sdt;
+			res = nhanvienRep.UpdateNhanVien(ex);
             return res;
         }
 
+        public SingleRsp DeleteNhanVien(int employeeId)
+        {
+            var rsp = new SingleRsp();
+
+            try
+            {
+                // Find the existing employee
+                var e = nhanvienRep.Read(employeeId);
+
+                if (e == null)
+                {
+                    rsp.SetError($"Employee ID {employeeId} khong tim thay.");
+                    return rsp;
+                }
+                // Delete the employee from the database
+                nhanvienRep.DeleteNhanVien(e);
+                rsp.SetMessage("Xoa thanh cong.");
+            }
+            catch (Exception ex)
+            {
+                rsp.SetError(ex.StackTrace);
+                rsp.SetMessage("Failed to delete employee.");
+            }
+
+            return rsp;
+        }
 
         #endregion
     }

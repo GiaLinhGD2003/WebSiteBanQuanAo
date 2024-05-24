@@ -1,15 +1,15 @@
-﻿using WebDT.Common.BLL;
-using WebDT.Common.Rsp;
+﻿using WebsiteBanQuanAo16.Common.BLL;
+using WebsiteBanQuanAo16.Common.Rsp;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WebDT.DAL;
-using WebDT.DAL.Models;
+using WebsiteBanQuanAo16.DAL;
+using WebsiteBanQuanAo16.DAL.Models;
 using System.Net.Http;
-using WebDT.Common.Req;
+using WebsiteBanQuanAo16.Common.Req;
 using System.Linq;
 
-namespace WebDT.BLL
+namespace WebsiteBanQuanAo16.BLL
 {
     public class UserSvc : GenericSvc<UserRep,User>
     {
@@ -38,11 +38,11 @@ namespace WebDT.BLL
             User user = new User();
             user.UserName = userReq.UserName; ;
             user.Email = userReq.Email;
-            user.Password = userReq.Password;
-            user.IsAdmin = userReq.IsAdmin;
+            user.MatKhau = userReq.MatKhau;
+            user.Quyen = userReq.Quyen;
             //Nếu isAdmin khác 0 hoặc 1 thì gán mặc định là 0
-            if (userReq.IsAdmin != 0 && userReq.IsAdmin != 1)
-                user.IsAdmin = 0;
+            if (userReq.Quyen != true && userReq.Quyen != false)
+                user.Quyen = false;
             userRep.CreateUser(user);
             return res;
         }
@@ -53,19 +53,19 @@ namespace WebDT.BLL
             User user = new User();
             user.UserName = userReq.UserName;
             user.Email = userReq.Email;
-            user.Password = userReq.Password;
-            user.IsAdmin = userReq.IsAdmin;
-            //Nếu isAdmin khác 0 hoặc 1 thì gán mặc định là 0
-            if (userReq.IsAdmin != 0 && userReq.IsAdmin != 1)
-                user.IsAdmin = 0;
-            userRep.UpdateUser(user);
+            user.MatKhau = userReq.MatKhau;
+			user.Quyen = userReq.Quyen;
+			//Nếu isAdmin khác 0 hoặc 1 thì gán mặc định là 0
+			if (userReq.Quyen != true && userReq.Quyen != false)
+				user.Quyen = false;
+			userRep.UpdateUser(user);
             return res;
         }
 
         public SingleRsp DeleteUser(int id)
         {
             var res = new SingleRsp();
-            var context = new QuanLyBanDienThoaiContext();
+            var context = new QLQuanAoContext();
             var user = context.Users.Find(id);
             if (user != null)
             {
@@ -80,8 +80,5 @@ namespace WebDT.BLL
             }
             return res;
         }
-
-
-
     }
 }

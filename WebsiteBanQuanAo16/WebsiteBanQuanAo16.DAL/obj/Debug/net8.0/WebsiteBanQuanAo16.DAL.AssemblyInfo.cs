@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebsiteBanQuanAo16.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3dd6ed7fbdd03465341cb120e86148c1d72aae2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9543294ca1196cea49b365627a15702e47904963")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebsiteBanQuanAo16.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebsiteBanQuanAo16.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

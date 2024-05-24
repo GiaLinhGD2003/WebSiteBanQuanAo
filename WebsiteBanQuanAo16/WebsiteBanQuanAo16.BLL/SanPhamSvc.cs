@@ -52,14 +52,14 @@ namespace WebsiteBanQuanAo16.BLL
             var res = new SingleRsp();
             try
             {
-                var products = All.Where(x => x.TenSp.Contains(s.Keyword));
-                if (products != null)
+                var sp = All.Where(x => x.TenSp.Contains(s.Keyword));
+                if (sp != null)
                 {
                     var offset = (s.Page - 1) * s.Size;
-                    var total = products.Count();
+                    var total = sp.Count();
                     int totalPage = (total % s.Size) == 0 ? (int)(total / s.Size) :
                         (int)(1 + (total / s.Size));
-                    var data = products.OrderBy(x => x.TenSp).Skip(offset).Take(s.Size).ToList();
+                    var data = sp.OrderBy(x => x.TenSp).Skip(offset).Take(s.Size).ToList();
                     var obj = new
                     {
                         Data = data,
@@ -85,33 +85,22 @@ namespace WebsiteBanQuanAo16.BLL
             return res;
         }
 
-        public SingleRsp CreateProduct(ProductReq productReq)
+        public SingleRsp CreateSanPham(SanPhamReq sanphamReq)
         {
-           
-
             var res = new SingleRsp();
             SanPham sp = new SanPham();
             try
             {
                 using (TransactionScope scope = new TransactionScope())
                 {
-                    //sp.MaSp = SanPhamReq
-                    //product.BrandId = productReq.BrandId;
-                    //product.ProductName = productReq.ProductName;
-                    //product.Price = productReq.Price;
-                    //product._5g = productReq._5g;
-                    //product.Processor = productReq.Processor;
-                    //product.Battery = productReq.Battery;
-                    //product.FastCharge = productReq.FastCharge;
-                    //product.Ram = productReq.Ram;
-                    //product.Memory = productReq.Memory;
-                    //product.Screen = productReq.Screen;
-                    //product.RefreshRate = productReq.RefreshRate;
-                    //product.Os = productReq.Os;
-                    //product.RearCamera = productReq.RearCamera;
-                    //product.FrontCamera = productReq.FrontCamera;
-                    //product.ExtendMemory = productReq.ExtendMemory;
-                    res = productRep.CreateProduct(product);
+                    sp.MaSp = sanphamReq.MaSp;
+					sp.MaLoai = sanphamReq.MaLoai;
+					sp.TenSp = sanphamReq.TenSp;
+					sp.ThongTinSp = sanphamReq.ThongTinSp;
+					sp.Gia = sanphamReq.Gia;
+					sp.SoLuong = sanphamReq.SoLuong;                   
+                    sp.KichThuoc = sanphamReq.KichThuoc;
+					res = productRep.CreateProduct(sp);
                 }
             }
             catch (Exception ex)
@@ -121,10 +110,10 @@ namespace WebsiteBanQuanAo16.BLL
             return res;
         }
 
-        public SingleRsp UpdateProduct(ProductReq productReq, string id)
+        public SingleRsp UpdateSanPham(SanPhamReq sanphamReq, string id)
         {
             int result;
-            var context = new QuanLyBanDienThoaiContext();
+            var context = new QLQuanAoContext();
             var res = new SingleRsp();
             using (var tran = context.Database.BeginTransaction())
             {
@@ -132,25 +121,16 @@ namespace WebsiteBanQuanAo16.BLL
                 {
                     if (int.TryParse(id, out result))
                     {
-                        var product = context.Products.FirstOrDefault(u => u.ProductId == result);
-                        if (product != null)
+                        var sp = context.SanPhams.FirstOrDefault(u => u.MaSp == result);
+                        if (sp != null)
                         {
-                            product.BrandId = productReq.BrandId;
-                            product.ProductName = productReq.ProductName;
-                            product.Price = productReq.Price;
-                            product._5g = productReq._5g;
-                            product.Processor = productReq.Processor;
-                            product.Battery = productReq.Battery;
-                            product.FastCharge = productReq.FastCharge;
-                            product.Ram = productReq.Ram;
-                            product.Memory = productReq.Memory;
-                            product.Screen = productReq.Screen;
-                            product.RefreshRate = productReq.RefreshRate;
-                            product.Os = productReq.Os;
-                            product.RearCamera = productReq.RearCamera;
-                            product.FrontCamera = productReq.FrontCamera;
-                            product.ExtendMemory = productReq.ExtendMemory;
-                            context.SaveChanges();
+							sp.MaLoai = sanphamReq.MaLoai;
+							sp.TenSp = sanphamReq.TenSp;
+							sp.ThongTinSp = sanphamReq.ThongTinSp;
+							sp.Gia = sanphamReq.Gia;
+							sp.SoLuong = sanphamReq.SoLuong;
+							sp.KichThuoc = sanphamReq.KichThuoc;
+							context.SaveChanges();
                             tran.Commit();
                             res.SetMessage("Update thanh cong");
                         }
@@ -178,13 +158,13 @@ namespace WebsiteBanQuanAo16.BLL
         public SingleRsp DeleteProduct(int id)
         {
             var res = new SingleRsp();
-            var context = new QuanLyBanDienThoaiContext();
+            var context = new QLQuanAoContext();
             try
             {
-                var product = context.Products.Find(id);
+                var product = context.SanPhams.Find(id);
                 if (product != null)
                 {
-                    context.Products.Remove(product);
+                    context.SanPhams.Remove(product);
                     context.SaveChanges();
                     res.SetMessage("Đã xóa sản phẩm");
                 }

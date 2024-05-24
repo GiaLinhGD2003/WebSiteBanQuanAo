@@ -10,7 +10,7 @@ namespace WebsiteBanQuanAo16.DAL.Models
         public SanPham()
         {
             ChiTietDonHangs = new HashSet<ChiTietDonHang>();
-            DanhGia = new HashSet<DanhGium>();
+            DanhGia = new HashSet<DanhGia>();
         }
 
         public int MaSp { get; set; }
@@ -23,6 +23,6 @@ namespace WebsiteBanQuanAo16.DAL.Models
 
         public virtual LoaiSp MaLoaiNavigation { get; set; }
         public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; }
-        public virtual ICollection<DanhGium> DanhGia { get; set; }
+        public virtual ICollection<DanhGia> DanhGia { get; set; }
     }
 }
