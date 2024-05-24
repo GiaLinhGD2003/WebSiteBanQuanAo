@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\projectmvc\\WebsiteBanQuanAo16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|c:\\users\\admin\\downloads\\projectmvc\\websitebanquanao16\\websitebanquanao16.common\\req\\productreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|solutionrelative:websitebanquanao16.common\\req\\productreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|c:\\users\\admin\\downloads\\projectmvc\\websitebanquanao16\\websitebanquanao16.bll\\sanphamsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\sanphamsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductReq.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\projectmvc\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\ProductReq.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Common\\Req\\ProductReq.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\projectmvc\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\ProductReq.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Common\\Req\\ProductReq.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:51:54.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SanPhamSvc.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\projectmvc\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\SanPhamSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\SanPhamSvc.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\projectmvc\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\SanPhamSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\SanPhamSvc.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwGEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:44:17.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

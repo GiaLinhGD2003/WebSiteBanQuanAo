@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebsiteBanQuanAo16.Web.props" />
+</Project>
