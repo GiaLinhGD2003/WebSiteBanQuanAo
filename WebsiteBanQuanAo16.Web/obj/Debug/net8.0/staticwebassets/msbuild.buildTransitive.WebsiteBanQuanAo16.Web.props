@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WebsiteBanQuanAo16.Web.props" />
+</Project>

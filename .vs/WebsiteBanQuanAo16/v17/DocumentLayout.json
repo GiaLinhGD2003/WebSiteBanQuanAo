@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.bll\\loaispsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\loaispsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.bll\\chitietdonhangsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\chitietdonhangsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\chitietdonhangrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\chitietdonhangrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\donhangrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\donhangrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\sanphamrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\sanphamrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.bll\\usersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\usersvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\loaispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\loaispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.web\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42775118-BEF3-414E-9FC0-252DB64CFC6A}|WebsiteBanQuanAo16.Web\\WebsiteBanQuanAo16.Web.csproj|solutionrelative:websitebanquanao16.web\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\qlquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\qlquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\loaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\loaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.bll\\donhangsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\donhangsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.bll\\nhanviensvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14ECB02-D5C0-4482-86FE-0E0527BDD7D1}|WebsiteBanQuanAo16.BLL\\WebsiteBanQuanAo16.BLL.csproj|solutionrelative:websitebanquanao16.bll\\nhanviensvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.common\\req\\timsanphamreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|solutionrelative:websitebanquanao16.common\\req\\timsanphamreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.common\\req\\nhanvienreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|solutionrelative:websitebanquanao16.common\\req\\nhanvienreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.common\\req\\sanphamreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB592C7-2FE0-47C9-8555-3A8F39421632}|WebsiteBanQuanAo16.Common\\WebsiteBanQuanAo16.Common.csproj|solutionrelative:websitebanquanao16.common\\req\\sanphamreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\userrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\userrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|d:\\ltcsdl\\websitebanquanao-master\\websitebanquanao16\\websitebanquanao16.dal\\nhanvienrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D239DAE2-DD4F-471F-B6B5-BFCBB0C104BF}|WebsiteBanQuanAo16.DAL\\WebsiteBanQuanAo16.DAL.csproj|solutionrelative:websitebanquanao16.dal\\nhanvienrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietDonHangSvc.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\ChiTietDonHangSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\ChiTietDonHangSvc.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\ChiTietDonHangSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\ChiTietDonHangSvc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:03:40.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonHangRep.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\DonHangRep.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\DonHangRep.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\DonHangRep.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\DonHangRep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:04:04.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanPhamRep.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\SanPhamRep.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\SanPhamRep.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\SanPhamRep.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\SanPhamRep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:34:42.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSvc.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\UserSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\UserSvc.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\UserSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\UserSvc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:40:53.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:38:28.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaiSPSvc.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\LoaiSPSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\LoaiSPSvc.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\LoaiSPSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\LoaiSPSvc.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:28:23.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietDonHangRep.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\ChiTietDonHangRep.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\ChiTietDonHangRep.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\ChiTietDonHangRep.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\ChiTietDonHangRep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:03:58.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoaiSPController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\LoaiSPController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\LoaiSPController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\LoaiSPController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\LoaiSPController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:05:09.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:05:22.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\SanPhamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:38:50.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:14:38.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Web\\Controllers\\DonHangController.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Web\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Web\\Controllers\\DonHangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:04:57.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\DonHang.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\DonHang.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\DonHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:32:29.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\SanPham.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\SanPham.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\SanPham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:33:43.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QLQuanAoContext.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\QLQuanAoContext.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\QLQuanAoContext.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\QLQuanAoContext.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\QLQuanAoContext.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAQwBwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:33:03.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\NhanVien.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:33:02.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoaiSp.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\LoaiSp.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\LoaiSp.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\LoaiSp.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\LoaiSp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:33:01.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\KhachHang.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\KhachHang.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\KhachHang.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:32:31.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DanhGia.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\DanhGia.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\DanhGia.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\DanhGia.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\DanhGia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:32:28.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\Models\\ChiTietDonHang.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\Models\\ChiTietDonHang.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\Models\\ChiTietDonHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:32:26.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TimSanPhamReq.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\TimSanPhamReq.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Common\\Req\\TimSanPhamReq.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\TimSanPhamReq.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Common\\Req\\TimSanPhamReq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:27:32.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NhanVienSvc.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\NhanVienSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\NhanVienSvc.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\NhanVienSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\NhanVienSvc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:32:23.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DonHangSvc.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\DonHangSvc.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.BLL\\DonHangSvc.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.BLL\\DonHangSvc.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.BLL\\DonHangSvc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T07:32:53.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NhanVienReq.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\NhanVienReq.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Common\\Req\\NhanVienReq.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\NhanVienReq.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Common\\Req\\NhanVienReq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:27:30.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SanPhamReq.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\SanPhamReq.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.Common\\Req\\SanPhamReq.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.Common\\Req\\SanPhamReq.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.Common\\Req\\SanPhamReq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:27:28.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRep.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\UserRep.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\UserRep.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\UserRep.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\UserRep.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:15:13.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NhanVienRep.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\NhanVienRep.cs",
+              "RelativeDocumentMoniker": "WebsiteBanQuanAo16.DAL\\NhanVienRep.cs",
+              "ToolTip": "D:\\LTCSDL\\WebSiteBanQuanAo-master\\WebsiteBanQuanAo16\\WebsiteBanQuanAo16.DAL\\NhanVienRep.cs",
+              "RelativeToolTip": "WebsiteBanQuanAo16.DAL\\NhanVienRep.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:09:50.72Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
